@@ -1,0 +1,445 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: red; 
+}
+.navbar {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(7, 6, 6);}
+.first {
+    height: 50px;
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.second {
+    height: 50px;
+    width: 30%;}
+.first ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.first ul li {
+    list-style: none;
+    padding: 10px;}
+.first ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    font-style: italic;
+    text-shadow: 10px 10px 10px rgb(239, 239, 241);
+    border-bottom: 2px solid rgb(243, 241, 241);}
+.first ul li a:hover {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(8, 8, 8);
+    padding: 1px;
+    font-style: normal;}
+.first a {
+    color: rgb(252, 249, 249);}
+.btn {
+    height: 25px;
+    width: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+    background-color: black;
+    color: whitesmoke;}
+input {
+    height: 20px;
+    border-radius: 5px;
+    width: 280px;}
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;}
+
+.mid p {
+    font-size: 20px;
+}
+.mar h3 {
+    color: rgb(248, 246, 246);
+    font-style: italic;
+}
+
+.mar {
+    background-color: rgb(7, 6, 6);
+}
+
+#section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1030px;
+    flex-direction: column;
+}
+
+.topu2 {
+    display: flex;
+    align-items: center;
+}
+
+.top h2 {
+    color: red;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(7, 6, 6);
+    color: white;
+    font-style: italic;}
+
+.top1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.top2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.top3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.top4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.top1 .topu1 {
+    background: url('fashion1.jpg')no-repeat center center/cover;
+    height: 250px;
+    width: 30%;
+}
+
+.top1 .topu2 {
+    height: 250px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 40px; */
+}
+
+.top2 .topu2 {
+    background: url('fashion2.jpg')no-repeat center center/cover;
+    height: 250px;
+    width: 30%;
+}
+
+.top2 .topu1 {
+    height: 250px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+}
+
+.top3 .topu1 {
+    background: url('fashion3.jpg')no-repeat center center/cover;
+    height: 250px;
+    width: 30%;
+}
+
+.top3 .topu2 {
+    height: 250px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top4 .topu2 {
+    background: url('fashion4.jpg')no-repeat center center/cover;
+    height: 250px;
+    width: 30%;
+}
+
+.top4 .topu1 {
+    height: 250px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.mid p {
+    font-style: italic;
+}
+
+.topu2 {
+    flex-direction: column;
+    background-color: black;
+
+}
+
+.bn {
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    color: blanchedalmond;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.topu2 p {
+    color: blanchedalmond;
+}
+.topu2 h3 {
+    color: blanchedalmond;
+}
+.top2 .topu1 p {
+    color: blanchedalmond;
+}
+
+.top2 .topu1 h3 {
+    color: blanchedalmond;
+}
+
+.span {
+    color: white;
+}
+
+.top4 p {
+    color: blanchedalmond;
+}
+
+.sub {
+    margin-top: 10px;
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.text input {
+    width: 40%;
+    height: 30px;
+}
+
+.bt {
+    width: 100px;
+    height: 40px;
+    font-size: large;
+    background-color: red;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 9px grey;
+}
+
+.sub h1 {
+    color: blanchedalmond;
+}
+
+.sub h2 {
+    color: blanchedalmond;
+}
+
+.neeche {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.contacts {
+    width: 40%;
+    /* border: 2px solid red; */
+    background-color: black;
+    height: 400px;
+}
+
+.special {
+    width: 20%;
+    /* border: 2px solid red; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    border-right: 1px solid blanchedalmond;
+}
+
+.form {
+    width: 40%;
+    /* border: 2px solid red; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    border-right: 1px solid blanchedalmond;
+
+}
+
+.special p {
+    color: blanchedalmond;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.special p1 {
+    color: blanchedalmond;
+    text-decoration: underline;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form input{
+    width: 150%;
+    margin: 10px;
+}
+.form h2 {
+    color:blanchedalmond;
+}
+.form h3 {
+    color:blanchedalmond;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80px;
+    background-color: black;
+}
+.footer h3{
+    color: blanchedalmond;
+}
+#ii a{
+    animation-name: rishabh;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+    text-shadow: 10px 10px 10px red;
+}
+@keyframes rishabh {
+    0%{
+        color:rgb(236, 183, 183);
+    }
+   
+   
+    100%{
+        color:red;
+    }
+    
+}
+.top1 .topu1:hover{
+    opacity: 0.5;
+    
+}
+.top3 .topu1:hover{
+    opacity: 0.5;
+}
+.top2 .topu2:hover{
+    opacity: 0.5;
+}
+.top4 .topu2:hover{
+    opacity: 0.5;
+}
+.contacts:hover{
+    background-color: white;
+}
+.contacts{
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.special a{
+    color: blanchedalmond;
+}
+.mid a{
+    font-size: xx-large;
+    color: black;
+}
+.bn{
+    cursor: pointer;
+    box-shadow: 0px 6px grey;
+}
+.bn:active{
+    box-shadow: 0px 0px;
+    transform: translateY(6px);
+}
+.bt:hover{
+    background-color: rgb(189, 61, 61);
+}
+.bt:active{
+    transform: translateY(6px);
+    box-shadow: 0px 3px;
+}
+.tops{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:10px ;
+    height: 5px;
+}
+.tops a{
+    color: red;
+}
+.mid{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 702px; 
+    background-image: url('fashion.jpg')
+}
+.mid a{
+    color:rgb(250, 10, 10);
+}
+.mid p{
+    font-size: 30px;
+}

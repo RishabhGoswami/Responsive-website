@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            background-color: black;
+            margin-top: 1px;
+        }
+        .head{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 99%;
+            height: 40px;
+            font-size: 30px;
+            font-weight: bolder;
+            border: 1px solid red;
+            background-color: black;
+            color: red;
+        }
+        .down{
+            border: 1px solid blanchedalmond;
+            height:200px ;
+            width: 99%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .down p{
+            font-style: oblique;
+            color: blanchedalmond;
+            font-size: 18px;
+        }
+        .down:hover{
+            opacity: 0.7;
+            /* background-color: red; */
+        }
+        img{
+            width:290px;
+            height: 290px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            animation-name: rishabh;
+            animation-iteration-count: 1;
+            animation-duration: 3s;
+            border-radius: 20px;
+            border  :1px solid blanchedalmond;
+
+        }
+    
+        img:hover{
+            animation: rishu 1s infinite  ;
+        }
+        @keyframes rishu {
+  0% { transform:  rotate(0deg); }
+  10% { transform: rotate(-1deg); }
+  20% { transform: rotate(1deg); }
+  30% { transform: rotate(0deg); }
+  40% { transform:  rotate(1deg); }
+  50% { transform:  rotate(-1deg); }
+  60% { transform:  rotate(0deg); }
+  70% { transform:  rotate(-1deg); }
+  80% { transform:  rotate(1deg); }
+  90% { transform: rotate(-1deg); }
+  100% { transform:  rotate(0deg); }
+
+            
+        }
+        .img{
+            margin-top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 2px solid white; */
+            overflow: auto;
+            flex-wrap: wrap;
+        }
+        .img a{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        About our Fashion store..
+    </div>
+    <br>
+    <div class="down">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque eum ea laborum deleniti vel a, delectus ipsum magnam sequi itaque laudantium voluptates esse hic reprehenderit, atque, reiciendis ex sunt blanditiis. Pariatur, dolor possimus quo rerum expedita iste sed aut laboriosam, enim earum assumenda magni nisi amet aperiam maiores totam cum commodi asperiores, nostrum voluptas labore laborum ex eius! Explicabo officia reiciendis illum tenetur deserunt, beatae eaque harum vitae tempore sint nesciunt cupiditate delectus quis commodi, reprehenderit error at maiores enim aliquid molestias neque, iusto similique exercitationem eos! Tenetur, est molestias fuga veniam odit deserunt necessitatibus exercitationem vero dolor illo dolore eum rerum architecto quas numquam magnam repellat enim soluta ratione quibusdam. </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="img">
+    <a href='transform.jpg' download>
+    <img src="transform.jpg"></a>
+    <a href='transform1.jpg' download>
+        <img src="transform1.jpg"></a>
+    <a href='transform2.jpg' download>
+    <img src="transform2.jpg"></a>
+</div>
+</body>
+</html>

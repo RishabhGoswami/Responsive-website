@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon...</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .total{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 830px;
+            width:99.9%;
+        }
+        .top{
+            /* border: 2px solid black; */
+            height: 100px;
+            width:99.9%;
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+        }
+        .middle{
+            /* border: 2px solid black; */
+            height: 630px;
+            width:99.9%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .bottom{
+            /* border: 2px solid black; */
+            height: 100px;
+            width:99.9%;
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+
+        }
+        .middle h1{
+            color: blanchedalmond;
+            font-size: 40px;
+        }
+        .middle hr{
+            color: blanchedalmond;
+        }
+        .top h1{
+            color: blanchedalmond;
+        }
+        .total::before{
+            content: '';
+            z-index: -1;
+            position: absolute;
+            background: url('forest.jpg')no-repeat center center/cover;
+            height:830px;
+            width:100%;
+        }
+        .bottom h1{
+            color: blanchedalmond;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="total">
+        <div class="top">
+            <h1>Fashion Store</h1>
+
+        </div>
+        <div class="middle">
+            <h1>Coming Soon...</h1>
+            <br>
+            <h1>
+                27 Days left
+            </h1>
+
+        </div>
+
+        <div class="bottom">
+            <h1>Coupons are ready!!!</h1>
+
+        </div>
+    </div>
+</body>
+
+</html>
